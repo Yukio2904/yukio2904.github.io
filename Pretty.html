@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<a href="Pretty.html"><h1>YU Archive</h1></a>
+		</header>
+		<div>
+			<h2>Which YU is of interest to you?</h2>
+			<div>
+			<p id="YuID"></p>
+			<div class="InputButtonRow">
+			<div class="InputButton" id="TopLeft" onClick="AddChar('7')"><h3>7</h3></div>
+			<div class="InputButton" id="TopMid" onClick="AddChar('8')"><h3>8</h3></div>
+			<div class="InputButton" id="TopRight" onClick="AddChar('9')"><h3>9</h3></div>
+			</div>
+			<div class="InputButtonRow">
+			<div class="InputButton" id="MidLeft" onClick="AddChar('4')"><h3>4</h3></div>
+			<div class="InputButton" id="MidMid" onClick="AddChar('5')"><h3>5</h3></div>
+			<div class="InputButton" id="MidRight" onClick="AddChar('6')"><h3>6</h3></div>
+			</div>
+			<div class="InputButtonRow">
+			<div class="InputButton" id="BotLeft" onClick="AddChar('1')"><h3>1</h3></div>
+			<div class="InputButton" id="BotMid" onClick="AddChar('2')"><h3>2</h3></div>
+			<div class="InputButton" id="BotRight" onClick="AddChar('3')"><h3>3</h3></div>
+			</div>
+			<div class="InputButtonRow">
+			<div id="AcceptButton" onClick="Accept()"><h3>V</h3></div>
+			<div id="EraseButton" onClick="Erase()"><h3>X</h3></div>
+			</div>
+		</div>
+		<script>
+			const YuID = document.getElementById("YuID");
+			var Toggle=0;
+			function AddChar(x){
+				if(Toggle==1){
+				YuID.innerHTML=x;
+				Toggle=0;
+				} else
+				if(YuID.innerHTML.length<6){
+				YuID.innerHTML+=x;
+				}
+			}
+			function Erase(){
+				if(Toggle==1){
+				YuID.innerHTML="";
+				Toggle=0;
+				} else
+				YuID.innerHTML=YuID.innerHTML.substring(0, YuID.innerHTML.length -1);
+			}
+			function Accept(){
+				Toggle=1;
+				switch(YuID.innerHTML){
+				case "77":
+				location.href = "Yu77.html"
+				break;
+				case "64":
+				location.href = "Yu64.html"
+				break;
+				case "87":
+				location.href = "Yu87.html"
+				break;
+				case "1":
+				location.href = "Yu01.html"
+				break;
+				default:
+				YuID.innerHTML="NoData";
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -146,10 +146,18 @@ img{
 	border:5px solid black;
 	border-radius:20px;
 }
-.description{
+.description,.written{
 	font-size:30px;
 	margin:20px;
 	color:gray;
 	font-family:consolas;
 	text-shadow:2px 2px black;
+}
+.written{
+	font-family:fox in the snow;
+	color:black;
+	text-shadow:none;
+	font-weight:bold;
+	letter-spacing:-2px;
+	line-height:5px;
 }

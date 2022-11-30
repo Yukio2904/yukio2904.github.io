@@ -44,6 +44,7 @@
 				if(Toggle==1){
 				YuID.innerHTML=x;
 				Toggle=0;
+				YuID.style.color="green";
 				} else
 				if(YuID.innerHTML.length<6){
 				YuID.innerHTML+=x;
@@ -53,6 +54,7 @@
 				if(Toggle==1){
 				YuID.innerHTML="";
 				Toggle=0;
+				YuID.style.color="green";
 				} else
 				YuID.innerHTML=YuID.innerHTML.substring(0, YuID.innerHTML.length -1);
 			}
@@ -70,6 +72,9 @@
 				break;
 				case "1":
 				location.href = "Yu01.html"
+				break;
+				case "2":
+				location.href = "Yu02.html"
 				break;
 				case "7":
 				location.href = "Yu07.html"
@@ -91,6 +96,7 @@
 				break;
 				default:
 				YuID.innerHTML="NoData";
+				YuID.style.color="#A00";
 				}
 			}
 		</script>

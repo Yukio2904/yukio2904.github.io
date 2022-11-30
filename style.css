@@ -14,7 +14,7 @@ color:#CCC;
 font-family:sans-serif;
 font-size:30px;
 margin-bottom:25px;
-text-shadow:-2px -2px white, 5px 5px black;
+text-shadow:-1px -1px white, 3px 3px black;
 text-decoration:underline;
 }
 #Menu{
@@ -32,31 +32,33 @@ height:235px;
 width:220px;
 }
 h2{
-margin-left:50px;
 color:white;
-font-size:20px;
+font-size:25px;
 text-shadow:none;
 margin-top:15px;
+text-align:center;
 }
 div{
-background-image:linear-gradient(#555,#333);
+background-image:linear-gradient(#555,#444);
 box-shadow: 0px 0px 255px black;
-border:6px solid #333;
+border:6px double black;
+box-shadow:inset 0px 0px 25px #666;
+height:650px;
+width:500px;
+margin:auto;
+margin-top:50px;
+border-radius:20px;
 }
 header{
 position:fixed;
 width:fit-content;
 padding:10px;
-transform: translate(10px,-50px);
-}
-div{
-height:650px;
-width:400px;
-margin:auto;
-margin-top:50px;
-border-radius:20px;
+transform: translate(-10px,-60px);
 }
 div div{
+background-image:linear-gradient(#444,#555);
+box-shadow:inset 0px 0px 25px black;
+border:6px double transparent;
 height:150px;
 width:350px;
 margin:auto;
@@ -71,12 +73,17 @@ margin-top:50px;
 margin-left:100px;
 height:46px;
 font-size:40px;
-background-color:white;
+border-radius:20px;
+box-shadow:inset 0px 0px 15px black;
+text-shadow:0px 0px 50px #0D0;
+color:green;
+background-color:#222;
 }
 .InputButton,#EraseButton,#AcceptButton{
 width:50px;
 height:50px;
-box-shadow:4px 4px 2px black;
+box-shadow:0px 0px 5px black;
+border:6px double #444;
 }
 #TopLeft{
 border-radius:25px 0px 0px 0px;
@@ -103,9 +110,14 @@ border:none;
 margin-top:75px;
 display:flex;
 }
+.InputButton h3{
+color:white;
+text-shadow:2px 2px black;
+}
 .InputButton:hover{
-background-color:#666;
-border-color:#555;
+background-image:linear-gradient(#777,#666);
+border-color:#777;
+box-shadow:0px 0px 2px white;
 }
 .InputButton:active{
 background-color:#999;
@@ -118,7 +130,7 @@ width:fit-content;
 margin:auto;
 color:#BBB;
 font-weight:bold;
-opacity:20%;
+opacity:30%;
 text-shadow:-1px -1px white,3px 3px black;
 }
 #EraseButton,#AcceptButton{

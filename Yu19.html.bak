@@ -6,33 +6,30 @@
 	</head>
 	<body>
 		<header>
-			<div id="Menu">
 			<a href="index.html"><h1>YU Archive</h1></a>
-			<a href="Yu.html"><h1>Young Understanding</h1></a>
-			<a href="FE.html"><h1>FrozenEmber</h1></a>
-			<a href="Gallery.html"><h1>Gallery</h1></a>
-			</div>
 		</header>
 		<div class="wideDiv">
-			<img src="YuE.png">
-			<h1 class="description">Yu-2</h1>
+			<img src="Yu19.png">
+			<h1 class="description">Yu-19</h1>
 			<p class="description">
-Yu-2 appears half melted. Like Yu-1, no one has a clue what happened to Yu-2 and the subject cannot communicate.
+Yu-19 is barely a Yu at all. The body is made from a different metal, the Yu is equipped with neurotoxin and it has
+"Aperture Science" stickers all over it. It's also capable of understanding advanced chemistry and physics. We're not
+sure how it got here in the first place, but we sent it back to Aperture Laboratories the day we found her.
 			</p>
 			<p class="description">
 			-----------------------------------------------------------------------
 			</p>
 			<p class="description">
-Last Location: FED Chamber - B2
+Last Location: Aperture Laboratories
 			</p>
 			<p class="description">
-Current state: semi-active
+Current state: Active
 			</p>
 			<p class="description">
-Likes: N/A
+Likes: Puzzles
 			</p>
 			<p class="description">
-Dislikes: N/A
+Dislikes: Books
 			</p>
 			<p class="description">
 Notes: N/A

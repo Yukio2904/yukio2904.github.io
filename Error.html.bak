@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<style>
+			*{
+			background-color:black;
+			margin:0px;
+			padding:0px;
+			overflow:hidden;
+			}
+			img{
+			width:100%;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="Image" src="Error.png">
+		<script>
+			var x=100;
+			setTimeout(Clock,0);
+			function Clock(){
+			document.getElementById("Image").style.filter="blur("+(x+105)+"px) brightness("+(x+125)+"%)";
+			x-=1;
+				if (x>-100){
+				setTimeout(Clock,50);
+				}
+			}
+		</script>
+	</body>
+</html>

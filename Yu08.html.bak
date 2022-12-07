@@ -14,19 +14,20 @@
 			</div>
 		</header>
 		<div class="wideDiv">
-			<img src="YuE.png">
-			<h1 class="description">Yu-2</h1>
+			<img id="myImage" src="Yu8/Idle.png">
+			<h1 class="description">Yu-8</h1>
 			<p class="description">
-Yu-2 appears half melted. Like Yu-1, no one has a clue what happened to Yu-2 and the subject cannot communicate.
+Yu-8 is the oldest appearance of any YU created. The FED company began by creating AIs on cheap screens as toys. 
+After FrozenEmber took over the company focused on creating machines and robots.
 			</p>
 			<p class="description">
 			-----------------------------------------------------------------------
 			</p>
 			<p class="description">
-Last Location: FED Chamber - B2
+Last Location: N/A
 			</p>
 			<p class="description">
-Current state: semi-active
+Current state: active
 			</p>
 			<p class="description">
 Likes: N/A
@@ -38,5 +39,28 @@ Dislikes: N/A
 Notes: N/A
 			</p>
 		</div>
+		<script>
+			var x = Math.floor(Math.random()*7);
+			var y = document.getElementById("myImage");
+			switch(x){
+				case 0:
+					y.src = "Yu8/Idle.png";
+					break;
+				case 1:
+					y.src = "Yu8/Annoyed.png";
+					break;
+				case 2:
+					y.src = "Yu8/Happy.png";
+					break;
+				case 3:
+					y.src = "Yu8/Sleep.png";
+					break;
+				case 4:
+					y.src = "Yu8/Glitch.png";
+					break;
+				default:
+					y.src = "Yu8/Idle.png";
+			}
+		</script>
 	</body>
 </html>

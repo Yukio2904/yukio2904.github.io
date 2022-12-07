@@ -91,9 +91,6 @@
 				case "78":
 				location.href = "Yu78.html"
 				break;
-				case "8":
-				location.href = "Yu08.html"
-				break;
 				case "999999":
 				location.href = "Error.html"
 				break;

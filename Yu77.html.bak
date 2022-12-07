@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="Menu">
+			<a href="index.html"><h1>YU Archive</h1></a>
+			<a href="Yu.html"><h1>Young Understanding</h1></a>
+			<a href="FE.html"><h1>FrozenEmber</h1></a>
+			<a href="Gallery.html"><h1>Gallery</h1></a>
+			</div>
+		</header>
+		<div class="wideDiv">
+			<img src="Yu77.png">
+			<h1 class="description">Yu-77</h1>
+			<p class="description">
+Yu-77 appears to be a "Neko" of asian descent.
+As of ██.██.██, Yu-77 does not seem capable of eating.
+The subject's mouth seems to be completely absent. 
+It is believed the subject is still eating, however.
+She has shown a peculiar disgust for breathing.
+The subject's body is extremely radioactive, yet somehow fully tested and safe to be around.
+			</p>
+			<p class="description">
+			-----------------------------------------------------------------------
+			</p>
+			<p class="description">
+Last Location: ███████'█ █████
+			</p>
+			<p class="description">
+Current state: Active
+			</p>
+			<p class="description">
+Likes: Lightning
+			</p>
+			<p class="description">
+Dislikes: Biology, Yu-█
+			</p>
+			<p class="description">
+Notes: Subject has a very violent opinion on living beings. It is discouraged calling the subject "Cute".
+			</p>
+		
+		</div>
+		<div class="wideDiv">
+			<img src="Yu77B.png">
+			<h1 class="description">Yu-77-B</h1>
+			<p class="description">
+Yu-77-B seems a lot more serious unlike the other Yus. Named Yu-77-B after the similarities to Yu-77 and the
+surprising and unique appearance of bunny ears instead of feline ones. The body is made out of an element we
+cannot gather or identify. It appears to be some kind of metal, yet we have not succeeded in getting a sample
+or even scratching it.
+			</p>
+			<p class="description">
+			-----------------------------------------------------------------------
+			</p>
+			<p class="description">
+Last Location: ███████'█ █████
+			</p>
+			<p class="description">
+Current state: Active
+			</p>
+			<p class="description">
+Likes: Learning
+			</p>
+			<p class="description">
+Dislikes: █████
+			</p>
+			<p class="description">
+Notes: The subject tends to vanish when bored.
+			</p>
+		
+		</div>
+		<div class="wideDiv">
+			<img src="Yu77M.png">
+			<h1 class="description">Yu-77-M</h1>
+			<p class="description">
+Named after the similarities to Yu-77 and a classic maid outfit, Yu-77-M is very loyal. It's easy to hurt her and she then
+proceeds to display tear-like symbols on her eyes. She has a clear case of heterochromia. The body is a copy of Yu-77's body,
+but without any shine to it, enough to make it look like clay, but it has been confirmed metal.
+			</p>
+			<p class="description">
+			-----------------------------------------------------------------------
+			</p>
+			<p class="description">
+Last Location: FED Chamber - B63
+			</p>
+			<p class="description">
+Current state: Active
+			</p>
+			<p class="description">
+Likes: Serving
+			</p>
+			<p class="description">
+Dislikes: N/A
+			</p>
+			<p class="description">
+Notes: N/A
+			</p>
+		
+		</div>
+		<div class="wideDiv">
+			<img src="Yu77C.png">
+			<h1 class="description">Yu-77-C</h1>
+			<p class="description">
+Yu-77-C is a Yu-77 subclass with a Christmas appearance.
+			</p>
+			<p class="description">
+			-----------------------------------------------------------------------
+			</p>
+			<p class="description">
+Last Location: FED Chamber - A3
+			</p>
+			<p class="description">
+Current state: Inactive
+			</p>
+			<p class="description">
+Likes: Sandy Claws
+			</p>
+			<p class="description">
+Dislikes: N/A
+			</p>
+			<p class="description">
+Notes: Just accept her gift.
+			</p>
+		
+		</div>
+	</body>
+</html>

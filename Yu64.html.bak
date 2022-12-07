@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h1>YU Archive</h1></a>
+		</header>
+		<div class="wideDiv">
+			<img src="Yu64.png">
+			<h1 class="description">Yu-64</h1>
+			<p class="description">
+Yu-64 appears to be a "Neko" of asian descent.
+Yu-64 is significally smaller than the majority of Yus.
+The subject's mouth is made out of 6 face plates opening up whenever 
+the subject decides to bite. 
+Speculations say there are more of Yu-64's as if they were their own species.
+No proof of this has ever been conducted, but just in case they should be referred to as 
+Yu-64-[x].
+The subject's body is shiny, pink and very fragile.
+			</p>
+			<p class="description">
+			-----------------------------------------------------------------------
+			</p>
+			<p class="description">
+Last Location: N/A
+			</p>
+			<p class="description">
+Current state: Active
+			</p>
+			<p class="description">
+Likes: Climbing
+			</p>
+			<p class="description">
+Dislikes: Anger
+			</p>
+		</div>
+	</body>
+</html>

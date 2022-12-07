@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h1>YU Archive</h1></a>
+		</header>
+		<div class="wideDiv">
+			<img class="BigPic" src="Gallery/BP1.png">
+			<h1 class="description">Nala on a piano</h1>
+		</div>
+		<div class="wideDiv">
+			<img class="BigPic" src="Gallery/BP2.png">
+			<h1 class="description">Yu-77 and FrozenEmber</h1>
+		</div>
+		<div class="wideDiv">
+			<img class="BigPic" src="Gallery/BP3.png">
+			<h1 class="description">Yu-7 after putting in the konami code</h1>
+		</div>
+		<div class="wideDiv">
+			<img class="BigPic" src="Gallery/BP4.png">
+			<h1 class="description">Yu-7 learning about cats</h1>
+		</div>
+	</body>
+</html>

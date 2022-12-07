@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h1>YU Archive</h1></a>
+		</header>
+		<div class="wideDiv">
+			<img src="FE.png">
+			<h1 class="description">FrozenEmber Discovery</h1>
+			<p class="description">
+FrozenEmber is the CEO of a research facility under a similar name - FrozenEmber Discovery (FED). FrozenEmber never revealed
+her real identity to anyone else and she always puts work and discovery above anything else. The facility
+focuses on robotics and improving AI. The █████ █████████████ or ██ programme is statistically slowly making
+the facility go ████████. 
+			</p>
+		</div>
+	</body>
+</html>

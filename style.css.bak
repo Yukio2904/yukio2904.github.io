@@ -172,7 +172,6 @@ img{
 	float:right;
 	border:5px solid black;
 	border-radius:20px;
-	image-rendering:pixelated;
 }
 .BigPic{
 	width:960px;
